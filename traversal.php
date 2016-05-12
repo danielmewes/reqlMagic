@@ -45,8 +45,8 @@ class Candidate {
                 // Give it an extra score boost.
                 $this->score += 500.0;
             }
-        } catch (r\RqlUserError $e) {
-        } catch (r\RqlServerError $e) {
+        } catch (r\Exceptions\RqlUserError $e) {
+        } catch (r\Exceptions\RqlServerError $e) {
         }
     }
     var $term;
@@ -177,4 +177,3 @@ function computeNextGen($currentCandidates) {
     return pruneCandidates($newCandidates);
 }
 
-?>

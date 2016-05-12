@@ -31,4 +31,3 @@ function scoreQuery($query) {
     return 10.0 / (1.0 + strlen((string)$query));
 }
 
-?>

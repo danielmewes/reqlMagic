@@ -126,4 +126,3 @@ class Term {
     private $args = array();
 }
 
-?>
