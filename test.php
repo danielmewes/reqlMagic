@@ -1,6 +1,6 @@
 <?php
 
-require_once("rdb/rdb.php");
+require_once("vendor/autoload.php");
 
 require_once("traversal.php");
 require_once("queryGraph.php");

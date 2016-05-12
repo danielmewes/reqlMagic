@@ -1,6 +1,6 @@
 <?php
 
-require_once("rdb/rdb.php");
+require_once("vendor/autoload.php");
 
 class Term {
     const TYPE_ZERO = 0;
